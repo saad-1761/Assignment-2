@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* navigation section*/
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+header {
+  margin: 30px 150px 120px;
+}
+
+/* navigation section*/
+.navigation{
+    margin-bottom: 120px;
+    width: 1440px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 48px;
+  font-size: 16;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+.home-tab {
+  color: #252432;
+  font-weight: 600;
+}
+.shop-tab ,.about-tab {
+  color: #8987a1;
+}
+
+/*banner section*/
+.banner{
+    display: flex;
+    justify-content: space-between;
+    width: 1440px;
+    height:460px;
+    align-items: end;
+}
+.banner-texts{
+    width: 50%;
+}
+.banner-texts h1{
+    font-size:80px;
+    font-weight: 800;
+}
+.banner-texts h1 span{
+    color: #e95a08
+}
+.banner-texts p{
+    font-size:22px;
+    font-weight: 400;
+    color:rgba(0, 0, 0, 0.5);
+}
+.banner-img{
+    width:50%;
+    display: flex;
+    justify-content: end;
+}
+.banner-img img{
+    width: 100%;
+}
+
+
+
+
