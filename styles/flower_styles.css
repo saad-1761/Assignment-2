@@ -397,7 +397,7 @@ nav ul li {
   cursor: pointer;
 }
 
-@media (max-width: 394px) {
+@media (max-width: 576px) {
 
   nav {
     width:100%;
@@ -503,7 +503,7 @@ nav ul li {
   }
 
   .review-img {
-    width: 361px;
+    max-width: 576px;
     padding: 0 16px;
   }
 
@@ -535,7 +535,7 @@ nav ul li {
   }
 
   .review-img #store {
-    width: 361px;
+    width:100%;
     height: auto;
   }
 
