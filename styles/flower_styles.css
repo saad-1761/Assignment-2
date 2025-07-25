@@ -175,3 +175,23 @@ nav ul li {
     padding-left: 10px;
     margin-bottom: 20px;
 }
+
+/*deals section */
+.deals{
+    width: 1140px;
+    margin: 0px auto 120px;
+    text-align: center;
+}
+.deals h1{
+font-size: 4.125rem;
+font-weight: 600;
+margin-bottom: 16px;
+}
+.deals h1 span{
+    color: #e95a08;;
+}
+.deals p{
+    color:rgba(0, 0, 0, 0.5);
+    font-size: 1.375rem;
+    font-family: "Inter";
+}
