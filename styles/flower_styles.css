@@ -12,13 +12,9 @@
   font-variation-settings: "wdth" 100;
 }
 
-
-
-
 /* navigation section*/
-.navigation{
-    margin-bottom: 120px;
-   
+.navigation {
+  margin-bottom: 120px;
 }
 nav {
   display: flex;
@@ -31,7 +27,7 @@ nav {
 .navbar ul {
   display: flex;
   gap: 48px;
-  font-size: 16;
+  font-size: 1rem;
 }
 
 nav ul li {
@@ -42,98 +38,140 @@ nav ul li {
   color: #252432;
   font-weight: 600;
 }
-.shop-tab ,.about-tab {
+.shop-tab,
+.about-tab {
   color: #8987a1;
 }
 
 /*banner section*/
-.banner{
-    display: flex;
-    justify-content: space-between;
-    width: 1140px;
-    height:460px;
-    align-items: end;
-    margin-bottom:120px;
-    margin-right: auto;
-    margin-left: auto;
+.banner {
+  display: flex;
+  justify-content: space-between;
+  width: 1140px;
+  height: 460px;
+  align-items: end;
+  margin-bottom: 120px;
+  margin-right: auto;
+  margin-left: auto;
 }
-.banner-texts{
-    width: 50%;
+.banner-texts {
+  width: 50%;
 }
-.banner-texts h1{
-    font-size:65px;
-    font-weight: 800;
+.banner-texts h1 {
+  font-size: 4rem;
+  font-weight: 800;
 }
-.banner-texts h1 span{
-    color: #e95a08
+.banner-texts h1 span {
+  color: #e95a08;
 }
-.banner-texts p{
-    font-size:22px;
-    font-weight: 400;
-    color:rgba(0, 0, 0, 0.5);
+.banner-texts p {
+  font-size: 1.375rem;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
 }
-.banner-img{
-    width:50%;
-    display: flex;
-    justify-content: end;
+.banner-img {
+  width: 50%;
+  display: flex;
+  justify-content: end;
 }
-.banner-img img{
-    width: 100%;
+.banner-img img {
+  width: 100%;
 }
 
 /*main title*/
 .introduction {
-    width:1140px;
-    margin: 0px auto 120px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 1140px;
+  margin: 0px auto 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.intro-title{
-    font-size: 50px;
-    font-weight: 700;
+.intro-title {
+  font-size: 3.125rem;
+  font-weight: 700;
 }
-.intro-title span{
-    color: #e95a08;
+.intro-title span {
+  color: #e95a08;
 }
-.intro-description{
-    color:#8987a1;
-    font-size: 22px;
-    text-align: center;
+.intro-description {
+  color: #8987a1;
+  font-size: 1.375rem;
+  text-align: center;
 }
 
 /*product section */
-.product-container{
-    width:1140px;
-    margin:0px auto 120px;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 20px;
+.product-container {
+  width: 1140px;
+  margin: 0px auto 120px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
 }
-.card{
-    display: flex;
-    flex-direction: column;
+.card {
+  display: flex;
+  flex-direction: column;
 }
-.card img{
-    width:100%;
-    height: 323px;
+.card img {
+  width: 100%;
+  height: 323px;
 }
-.card-body{
-    font-family:"Inter";
+.card-body {
+  font-family: "Inter";
 }
-.card-body p{
-    font-size:22px;
-    font-weight: 400;
-    margin:30px 30px;
-    line-height: 40px;
-    text-align: center;
+.card-body p {
+  font-size: 1.375rem;
+  font-weight: 400;
+  margin: 30px 30px;
+  line-height: 40px;
+  text-align: center;
 }
-.btn{
-    width: 270px;
-    height: 50px;
-    background-color: #e95a08;
-    color: #ffffff;
-    border: none;
+.btn {
+  width: 270px;
+  height: 50px;
+  background-color: #e95a08;
+  color: #ffffff;
+  border: none;
+}
+
+/* review section */
+.review-container {
+  width: 1140px;
+  margin: 0px auto 120px;
+  display: flex;
+  gap: 60px;
+}
+
+.review-container #store{
+    display: block;
+}
+.review-img{
+    position: relative;
+}
+#badge{
+    width: 286px;
+    height: 286px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(25%,-150%);
+}
+.review-title{
+    font-size: 4.125rem;
+    font-weight: 700;
+    justify-content: start;
+    color: black;
+}
+.review ul{
+    padding-left: 20px;
+    margin-top: 38px;
+    margin-bottom: 38px;
+}
+.review li{
+    font-family: "Inter";
+    font-size: 1.375rem;
+    color: rgba(0, 0, 0, 0.5);
+    padding-left: 10px;
+    margin-bottom: 20px;
 }
