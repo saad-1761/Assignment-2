@@ -133,6 +133,10 @@ nav ul li {
   background-color: #e95a08;
   color: #ffffff;
   border: none;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: #c87a46;
 }
 
 /* review section */
@@ -143,66 +147,66 @@ nav ul li {
   gap: 60px;
 }
 
-.review-container #store{
-    display: block;
+.review-container #store {
+  display: block;
 }
-.review-img{
-    position: relative;
+.review-img {
+  position: relative;
 }
-#badge{
-    width: 286px;
-    height: 286px;
-    position: absolute;
-    top:50%;
-    left:50%;
-    transform: translate(25%,-150%);
+#badge {
+  width: 286px;
+  height: 286px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(25%, -150%);
 }
-.review-title{
-    font-size: 4.125rem;
-    font-weight: 700;
-    justify-content: start;
-    color: black;
+.review-title {
+  font-size: 4.125rem;
+  font-weight: 700;
+  justify-content: start;
+  color: black;
 }
-.review ul{
-    padding-left: 20px;
-    margin-top: 38px;
-    margin-bottom: 38px;
+.review ul {
+  padding-left: 20px;
+  margin-top: 38px;
+  margin-bottom: 38px;
 }
-.review li{
-    font-family: "Inter";
-    font-size: 1.375rem;
-    color: rgba(0, 0, 0, 0.5);
-    padding-left: 10px;
-    margin-bottom: 20px;
+.review li {
+  font-family: "Inter";
+  font-size: 1.375rem;
+  color: rgba(0, 0, 0, 0.5);
+  padding-left: 10px;
+  margin-bottom: 20px;
 }
 
 /*deals section */
-.deals{
-    width: 1140px;
-    margin: 0px auto 120px;
-    text-align: center;
+.deals {
+  width: 1140px;
+  margin: 0px auto 120px;
+  text-align: center;
 }
-.deals h1{
-font-size: 4.125rem;
-font-weight: 600;
-margin-bottom: 16px;
+.deals h1 {
+  font-size: 4.125rem;
+  font-weight: 600;
+  margin-bottom: 16px;
 }
-.deals h1 span{
-    color: #e95a08;;
+.deals h1 span {
+  color: #e95a08;
 }
-.deals p{
-    color:rgba(0, 0, 0, 0.5);
-    font-size: 1.375rem;
-    font-family: "Inter";
+.deals p {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.375rem;
+  font-family: "Inter";
 }
 
 /*offer section */
 .offer {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-template-rows: 1fr 1fr;    
+  grid-template-rows: 1fr 1fr;
   max-width: 1140px;
-  margin:0px auto 120px;
+  margin: 0px auto 120px;
   gap: 20px;
   height: 100vh;
 }
@@ -224,7 +228,7 @@ margin-bottom: 16px;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.5); /* blackish overlay */
   display: flex;
-  gap:1rem;
+  gap: 1rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -235,37 +239,36 @@ margin-bottom: 16px;
 .offer-left-top {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
-  background-image: url('../assets/deal-bloom.png');
+  background-image: url("../assets/deal-bloom.png");
 }
 
 .offer-left-bottom {
   grid-column: 1 / 2;
   grid-row: 2 / 3;
-  background-image: url('../assets/deal-ana.png');
+  background-image: url("../assets/deal-ana.png");
 }
 
 .offer-right {
   grid-column: 2 / 3;
   grid-row: 1 / 3; /* Span both rows */
-  background-image: url('../assets/deal-zabo.png');
+  background-image: url("../assets/deal-zabo.png");
 }
 .offer-left-top .overlay p,
-.offer-left-bottom .overlay p
- {
+.offer-left-bottom .overlay p {
   font-size: 1.25rem;
   font-weight: 700;
 }
-.offer-left-top .overlay a,.offer-left-bottom .overlay a{
+.offer-left-top .overlay a,
+.offer-left-bottom .overlay a {
   color: white;
   font-size: 1rem;
   font-family: "inter";
-
 }
-.offer-right .overlay p{
+.offer-right .overlay p {
   font-size: 2.5rem;
   font-weight: 700;
 }
-.offer-right .overlay a{
+.offer-right .overlay a {
   color: white;
   font-size: 1.75rem;
   font-family: "inter";
@@ -273,7 +276,7 @@ margin-bottom: 16px;
 
 /*newsletter section */
 .news-letter {
-  background-image: url('../assets/news-letter-bg.png');
+  background-image: url("../assets/news-letter-bg.png");
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -299,9 +302,9 @@ margin-bottom: 16px;
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center; 
-  align-items: center;     
-  gap:20px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
 .letter-content h1 {
@@ -322,7 +325,7 @@ margin-bottom: 16px;
 }
 
 .input-group button {
-  width:250px;
+  width: 250px;
   padding: 10px 20px;
   font-size: 16px;
   border: none;
@@ -352,7 +355,7 @@ margin-bottom: 16px;
 }
 
 /* Item 1 (logo + text) */
-.item1{
+.item1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -363,15 +366,15 @@ margin-bottom: 16px;
   margin-bottom: 10px;
   padding-left: 70px;
 }
-.item1 p{
-  width:50%;
+.item1 p {
+  width: 50%;
   padding-left: 70px;
 }
 
 /* Items 2 & 3 (links vertically spaced) */
 .item2 a,
 .item3 a {
-  color:rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.5);
   text-decoration: none;
   padding: 5px 0;
   transition: color 0.3s;
@@ -395,5 +398,3 @@ margin-bottom: 16px;
   height: 24px;
   cursor: pointer;
 }
-
-
