@@ -13,9 +13,7 @@
 }
 
 /* navigation section*/
-.navigation {
-  margin-bottom: 120px;
-}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -70,7 +68,7 @@ nav ul li {
   color: rgba(0, 0, 0, 0.5);
 }
 .banner-img {
-  width: 50%;
+  width: 100%;
   display: flex;
   justify-content: end;
 }
@@ -363,7 +361,7 @@ nav ul li {
 }
 .item1 .logo {
   width: 40%;
-  margin-bottom: 10px;
+  margin-bottom:10px;
   padding-left: 70px;
 }
 .item1 p {
@@ -398,3 +396,252 @@ nav ul li {
   height: 24px;
   cursor: pointer;
 }
+
+@media (max-width: 394px) {
+  /* Navigation styles for mobile */
+  nav {
+    width:100%;
+    margin: 67px 0 28px;
+    padding-left: 16px;
+    padding-right: 16px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  /* Hide the navigation tabs */
+  .home-tab,
+  .shop-tab,
+  .about-tab {
+    display: none;
+  }
+
+  /* Align cart to right */
+  .navbar ul {
+    gap: 0;
+  }
+
+  .cart {
+    color: #252432;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+
+
+  /* Banner section layout for mobile */
+  .banner {
+    flex-direction: column-reverse;
+    width: auto;
+    height: auto;
+    margin: 0 0 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .banner-texts,
+  .banner-img {
+    width: 100%;
+    text-align: left;
+  }
+
+  .banner-texts h1 {
+    font-size: 2.5rem; /* smaller on mobile */
+    padding-left: 16px;
+  }
+
+  .banner-texts p {
+    font-size: 1rem;
+    padding: 0 10px;
+    padding-left: 16px;
+  }
+
+  .banner-img img {
+    width: 100%;
+  }
+    .introduction {
+    width: auto;
+    margin: 16px 16px 28px;
+    padding: 0;
+    text-align: center;
+  }
+
+  .intro-title {
+    font-size: 2rem;
+  }
+
+  .intro-description {
+    font-size: 1rem;
+  }
+  .product-container {
+    width: auto;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    gap: 16px;
+    margin: 20px 16px;
+  }
+
+  .card img {
+    height: auto; /* Allow image height to adjust naturally if needed */
+  }
+
+  .card-body p {
+    margin: 16px 8px;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .btn {
+    width: 100%;
+    height: 44px;
+    font-size: 0.9rem;
+  }
+
+  .review-container {
+    width: auto;
+    flex-direction: column; /* Stack image and text vertically */
+    margin: 0 0 60px;
+    gap: 30px; /* spacing between image and text */
+  }
+
+  .review-img {
+    width: 361px;
+    padding: 0 16px;
+  }
+
+  .review-container #badge {
+    display: none; /* hide badge on mobile */
+  }
+
+  .review-title {
+    font-size: 2rem;
+    text-align: left;
+    padding-left: 16px;
+  }
+
+  .review ul {
+    padding-left: 32px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 16px;
+  }
+
+  .review li {
+    font-size: 1rem;
+    line-height: 1;
+    margin-bottom: 16px;
+  }
+
+  .review {
+    text-align: left;
+  }
+
+  .review-img #store {
+    width: 361px;
+    height: auto;
+  }
+
+  .deals {
+    width: auto;
+    margin: 20px 16px 60px;
+    text-align: center;
+  }
+
+  .deals h1 {
+    font-size: 2rem;
+    margin-bottom: 12px;
+  }
+
+  .deals p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+    .offer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 50px 16px;
+    height: 581px;
+  }
+
+  .offer .item {
+    width: 100%;
+    height: 100%; /* Adjust height as needed */
+    background-size:cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .overlay {
+    text-align: center;
+    color: white;
+  }
+
+  .offer-left-top .overlay p,
+  .offer-left-bottom .overlay p {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .offer-left-top .overlay a,
+  .offer-left-bottom .overlay a {
+    font-size: 0.9rem;
+  }
+
+  .offer-right .overlay p {
+    font-size: 1.125rem;
+    font-weight: 700;
+  }
+
+  .offer-right .overlay a {
+    font-size: 1rem;
+  }
+  .news-letter {
+    height: auto; /* Let it adapt to content height on mobile */
+    padding: 50px 16px; /* Internal padding for breathing room */
+    background-position: center;
+  }
+
+  .letter-content {
+    gap: 24px;
+    padding: 0;
+  }
+
+  .letter-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .input-group input {
+    width: 75%;
+    padding: 12px;
+    font-size: 1rem;
+  }
+
+  .input-group button {
+    width: 25%;
+    font-size: 0.8rem;
+    padding:15px 10px;
+  }
+.footer{
+  display: flex;
+  flex-direction: column;
+  padding-left: 16px;
+}
+.item1 .logo {
+  width: 100%;
+  margin-bottom:10px;
+  padding-left: 16px;
+}
+.item1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+}
+.item1 p {
+  width: 70%;
+  padding-left: 0px;
+}
+}
+
