@@ -398,7 +398,7 @@ nav ul li {
 }
 
 @media (max-width: 394px) {
-  /* Navigation styles for mobile */
+
   nav {
     width:100%;
     margin: 67px 0 28px;
@@ -408,14 +408,14 @@ nav ul li {
     justify-content: space-between;
   }
 
-  /* Hide the navigation tabs */
+ 
   .home-tab,
   .shop-tab,
   .about-tab {
     display: none;
   }
 
-  /* Align cart to right */
+
   .navbar ul {
     gap: 0;
   }
@@ -427,7 +427,7 @@ nav ul li {
   }
 
 
-  /* Banner section layout for mobile */
+  
   .banner {
     flex-direction: column-reverse;
     width: auto;
@@ -445,7 +445,7 @@ nav ul li {
   }
 
   .banner-texts h1 {
-    font-size: 2.5rem; /* smaller on mobile */
+    font-size: 2.5rem; 
     padding-left: 16px;
   }
 
@@ -474,13 +474,13 @@ nav ul li {
   }
   .product-container {
     width: auto;
-    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    grid-template-columns: repeat(2, 1fr); 
     gap: 16px;
     margin: 20px 16px;
   }
 
   .card img {
-    height: auto; /* Allow image height to adjust naturally if needed */
+    height: auto; 
   }
 
   .card-body p {
@@ -497,9 +497,9 @@ nav ul li {
 
   .review-container {
     width: auto;
-    flex-direction: column; /* Stack image and text vertically */
+    flex-direction: column; 
     margin: 0 0 60px;
-    gap: 30px; /* spacing between image and text */
+    gap: 30px; 
   }
 
   .review-img {
@@ -508,7 +508,7 @@ nav ul li {
   }
 
   .review-container #badge {
-    display: none; /* hide badge on mobile */
+    display: none; 
   }
 
   .review-title {
@@ -564,7 +564,7 @@ nav ul li {
 
   .offer .item {
     width: 100%;
-    height: 100%; /* Adjust height as needed */
+    height: 100%; 
     background-size:cover;
     background-position: center;
     position: relative;
@@ -598,8 +598,8 @@ nav ul li {
     font-size: 1rem;
   }
   .news-letter {
-    height: auto; /* Let it adapt to content height on mobile */
-    padding: 50px 16px; /* Internal padding for breathing room */
+    height: auto; 
+    padding: 50px 16px; 
     background-position: center;
   }
 
